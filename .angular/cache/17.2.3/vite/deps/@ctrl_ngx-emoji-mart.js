@@ -2,13 +2,13 @@ import {
   EmojiComponent,
   EmojiService,
   categories
-} from "./chunk-MJQ77EI5.js";
+} from "./chunk-NGPM26NR.js";
 import {
   DefaultValueAccessor,
   FormsModule,
   NgControlStatus,
   NgModel
-} from "./chunk-SJKWO7VR.js";
+} from "./chunk-P4LUKLPI.js";
 import {
   AsyncPipe,
   CommonModule,
@@ -16,7 +16,7 @@ import {
   NgIf,
   NgStyle,
   isPlatformBrowser
-} from "./chunk-FBMGM2ZL.js";
+} from "./chunk-CQXFTR2W.js";
 import {
   ChangeDetectionStrategy,
   ChangeDetectorRef,
@@ -71,15 +71,15 @@ import {
   ɵɵtwoWayListener,
   ɵɵtwoWayProperty,
   ɵɵviewQuery
-} from "./chunk-NVVZ7ZKU.js";
+} from "./chunk-EJKBICNP.js";
+import "./chunk-KWBPU7EF.js";
 import {
   fromEvent
-} from "./chunk-EQ27DOS6.js";
-import "./chunk-GG4S2PIF.js";
+} from "./chunk-PWORDH67.js";
 import {
   Subject,
   takeUntil
-} from "./chunk-SUJZJ2YJ.js";
+} from "./chunk-AQUUAMGA.js";
 import "./chunk-LHRTKJE6.js";
 import {
   __spreadProps,
