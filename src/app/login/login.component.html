@@ -37,8 +37,7 @@
         <form [formGroup]="signInForm">
             <div class="login-input-main">
                 <input type="text" class="login-email-input" name="email" id="login_email"
-                    placeholder="beispielname@email.com" formControlName="email" (focus)="showEmailErrorDiv = true"
-                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                    placeholder="beispielname@email.com" formControlName="email" (focus)="showEmailErrorDiv = true">
                 <div class="error-message-container" [class.visible]="showEmailErrorDiv">
                     <mat-error *ngIf="signInForm.controls.email.invalid">
                         {{ checkErrors('email') }}

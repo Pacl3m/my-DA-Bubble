@@ -20,7 +20,7 @@
         </mat-error>
       </div>
       <input required type="email" class="sign-up-email-input" name="email" id="email"
-        placeholder="beispielname@email.com" formControlName="email" (focus)="showEmailErrorDiv = true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/>
+        placeholder="beispielname@email.com" formControlName="email" (focus)="showEmailErrorDiv = true"/>
       <div class="error-message-container" [class.visible]="showEmailErrorDiv">
         <mat-error *ngIf="registerForm.controls.email.invalid">
           {{ checkErrors('email') }}
