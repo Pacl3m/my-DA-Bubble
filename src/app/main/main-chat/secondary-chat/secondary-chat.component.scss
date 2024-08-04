@@ -280,7 +280,7 @@ emoji-mart {
     transition: all 125ms ease-in-out;
 
     .add-reaction {
-        background-image: url("/assets/img/main-chat/add_reaction.svg");
+        background-image: url(./../../../../assets/img/main-chat/add_reaction.svg);
         background-position: center;
         background-color: transparent;
         background-repeat: no-repeat;
@@ -294,12 +294,12 @@ emoji-mart {
         &:hover {
             background-color: $bg-color;
             border-radius: 50%;
-            background-image: url("/assets/img/main-chat/add_reaction_hover.svg");
+            background-image: url(./../../../../assets/img/main-chat/add_reaction_hover.svg);
         }
     }
 
     .options {
-        background-image: url("/assets/img/main-chat/options.svg");
+        background-image: url(./../../../../assets/img/main-chat/options.svg);
         background-position: center;
         background-color: transparent;
         background-repeat: no-repeat;
@@ -313,7 +313,7 @@ emoji-mart {
         &:hover {
             background-color: $bg-color;
             border-radius: 50%;
-            background-image: url("/assets/img/main-chat/options_hover.svg");
+            background-image: url(./../../../../assets/img/main-chat/options_hover.svg);
         }
     }
 }
@@ -334,7 +334,7 @@ emoji-mart {
     transition: all 200ms ease-in-out;
 
     .add-reaction {
-        background-image: url("/assets/img/main-chat/add_reaction.svg");
+        background-image: url(./../../../../assets/img/main-chat/add_reaction.svg);
         background-position: center;
         background-color: transparent;
         background-repeat: no-repeat;
@@ -348,7 +348,7 @@ emoji-mart {
         &:hover {
             background-color: $bg-color;
             border-radius: 50%;
-            background-image: url("/assets/img/main-chat/add_reaction_hover.svg");
+            background-image: url(./../../../../assets/img/main-chat/add_reaction_hover.svg);
         }
     }
 }
@@ -398,7 +398,7 @@ app-text-box {
 }
 
 .close-button {
-    background-image: url('/assets/img/main-chat/close.svg');
+    background-image: url(./../../../../assets/img/main-chat/close.svg);
     background-repeat: no-repeat;
     background-position: center;
     height: 26px;
@@ -409,7 +409,7 @@ app-text-box {
     cursor: pointer;
 
     &:hover {
-        background-image: url('/assets/img/main-chat/closeHover.svg');
+        background-image: url(./../../../../assets/img/main-chat/closeHover.svg);
     }
 }
 

@@ -44,7 +44,7 @@ export class SecondaryChatMessagesComponent implements OnInit, OnDestroy {
   showMoreEmojisToolbar: boolean = false;
   messageDeleted: boolean = false;
   ownMessageEdit: boolean = false;
-  public pdfIconPath: string = '/assets/img/pdf-icon.png'
+  public pdfIconPath: string = 'assets/img/pdf-icon.png'
 
   private firestore: Firestore = inject(Firestore);
   private storage: FirebaseStorage;

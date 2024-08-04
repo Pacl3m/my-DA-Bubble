@@ -69,7 +69,7 @@ export class ProfilCardComponent implements OnInit {
         this.userNameandSurname = user.displayName;
         this.userEmailAddress = user.email;
       } else {
-        this.profilePic = '/assets/img/login/profile_generic_big.png';
+        this.profilePic = 'https://pascal-moeller.developerakademie.net/angular-projects/my-DA-Bubble/assets/img/userImages/blanco_img.png';
         this.userNameandSurname = 'Max Mustermann';
         this.userEmailAddress = 'maxmustermann@gmail.com'
       }

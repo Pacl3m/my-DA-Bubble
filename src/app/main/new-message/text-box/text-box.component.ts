@@ -274,7 +274,7 @@ export class TextBoxComponent {
       const downloadUrl = await getDownloadURL(uploadTask.ref);
       this.imageURL = downloadUrl;
       if (file.type == 'application/pdf') {
-        this.fileIconUrl = '/assets/img/pdf-icon.png'
+        this.fileIconUrl = 'assets/img/pdf-icon.png'
       }
    
   

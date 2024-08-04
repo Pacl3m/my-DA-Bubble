@@ -34,7 +34,7 @@ export class EditOwnThreadComponent implements OnInit {
   channelDmPath: string;
   messagePath: string;
   collectionPath: string;
-  public pdfIconPath: string = '/assets/img/pdf-icon.png'
+  public pdfIconPath: string = 'assets/img/pdf-icon.png'
 
   constructor() { }
 

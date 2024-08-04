@@ -93,13 +93,13 @@ export class SignUpComponent implements OnInit {
   addTheUpperMargin: boolean = false;
 
 
-  genericImg: string = '/assets/img/login/profile_generic_big.png';
-  person1Img: string = '/assets/img/userImages/userImage1.svg';
-  person2Img: string = '/assets/img/userImages/userImage2.svg';
-  person3Img: string = '/assets/img/userImages/userImage3.svg';
-  person4Img: string = '/assets/img/userImages/userImage4.svg';
-  person5Img: string = '/assets/img/userImages/userImage5.svg';
-  person6Img: string = '/assets/img/userImages/userImage6.svg';
+  genericImg: string = 'https://pascal-moeller.developerakademie.net/angular-projects/my-DA-Bubble/assets/img/userImages/blanco_img.png';
+  person1Img: string = 'https://pascal-moeller.developerakademie.net/angular-projects/my-DA-Bubble/assets/img/userImages/userImage1.svg';
+  person2Img: string = 'https://pascal-moeller.developerakademie.net/angular-projects/my-DA-Bubble/assets/img/userImages/userImage2.svg';
+  person3Img: string = 'https://pascal-moeller.developerakademie.net/angular-projects/my-DA-Bubble/assets/img/userImages/userImage3.svg';
+  person4Img: string = 'https://pascal-moeller.developerakademie.net/angular-projects/my-DA-Bubble/assets/img/userImages/userImage4.svg';
+  person5Img: string = 'https://pascal-moeller.developerakademie.net/angular-projects/my-DA-Bubble/assets/img/userImages/userImage5.svg';
+  person6Img: string = 'https://pascal-moeller.developerakademie.net/angular-projects/my-DA-Bubble/assets/img/userImages/userImage6.svg';
   imgUrl: string = this.genericImg;
 
   @ViewChild('fileUpload') fileUpload: ElementRef;

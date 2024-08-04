@@ -69,7 +69,7 @@ export class SecondaryChatComponent implements OnInit, OnDestroy {
   activeChannelId: string = '';
   private threadIdSubscription!: Subscription;
   public selectedThreadId!: string;
-  public pdfIconPath: string = '/assets/img/pdf-icon.png'
+  public pdfIconPath: string = 'assets/img/pdf-icon.png'
   threadMessages: ThreadMessage[] = [];
   firstThreadMessage?: ThreadMessage;
   threadOpen: boolean = false;

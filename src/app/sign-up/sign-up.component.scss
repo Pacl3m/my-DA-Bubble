@@ -37,10 +37,10 @@
     left: 32px;
     border: none;
     background-color: white;
-    background-image: url('/assets/img/login/back.png');
+    background-image: url(./../../assets/img/login/back.png);
 
     &:hover {
-        background-image: url('/assets/img/login/back_hovered.png');
+        background-image: url(./../../assets/img/login/back_hovered.png);
         cursor: pointer;
     }
 }
@@ -97,37 +97,37 @@
 }
 
 .sign-up-name-input {
-    background: url('/assets/img/login/person_gray.png') no-repeat scroll 7px 7px;
+    background: url(./../../assets/img/login/person_gray.png) no-repeat scroll 7px 7px;
     padding-left: 60px !important;
     background-position: 20px 50%;
     margin-top: 20px;
 
     &:focus {
-        background: url('/assets/img/login/person_black.png') no-repeat scroll 7px 7px;
+        background: url(./../../assets/img/login/person_black.png) no-repeat scroll 7px 7px;
         background-position: 20px 50%;
         color: black;
     }
 }
 
 .sign-up-email-input {
-    background: url('/assets/img/login/mail_gray.png') no-repeat scroll 7px 7px;
+    background: url(./../../assets/img/login/mail_gray.png) no-repeat scroll 7px 7px;
     padding-left: 60px !important;
     background-position: 20px 50%;
 
     &:focus {
-        background: url('/assets/img/login/mail_black.png') no-repeat scroll 7px 7px;
+        background: url(./../../assets/img/login/mail_black.png) no-repeat scroll 7px 7px;
         background-position: 20px 50%;
         color: black;
     }
 }
 
 .sign-up-password-input {
-    background: url('/assets/img/login/lock_gray.png') no-repeat scroll 7px 7px;
+    background: url(./../../assets/img/login/lock_gray.png) no-repeat scroll 7px 7px;
     padding-left: 60px !important;
     background-position: 20px 50%;
 
     &:focus {
-        background: url('/assets/img/login/lock_black.png') no-repeat scroll 7px 7px;
+        background: url(./../../assets/img/login/lock_black.png) no-repeat scroll 7px 7px;
         background-position: 20px 50%;
         color: black;
     }
@@ -210,7 +210,7 @@
 
 #checkbox1 {
     appearance: none;
-    background-image: url('/assets/img/login/checkbox_unchecked.png');
+    background-image: url(./../../assets/img/login/checkbox_unchecked.png);
     height: 24px;
     width: 24px;
     cursor: pointer;
@@ -220,7 +220,7 @@
     background-color: white;
 
     &:hover {
-        background-image: url('/assets/img/login/checkbox_unchecked_hovered.png');
+        background-image: url(./../../assets/img/login/checkbox_unchecked_hovered.png);
         background-color: white;
         outline: none;
     }
@@ -230,10 +230,10 @@
     }
 
     &:checked {
-        background-image: url('/assets/img/login/checkbox_checked.png');
+        background-image: url(./../../assets/img/login/checkbox_checked.png);
 
         &:hover {
-            background-image: url('/assets/img/login/checkbox_checked_hovered.png');
+            background-image: url(./../../assets/img/login/checkbox_checked_hovered.png);
             outline: none;
         }
     }
@@ -437,18 +437,18 @@
 }
 
 .visibility_on {
-    background-image: url('/assets/img/login/visibility_on_gray.png');
+    background-image: url(./../../assets/img/login/visibility_on_gray.png);
 
     &:hover {
-        background-image: url('/assets/img/login/visibility_on_black.png');
+        background-image: url(./../../assets/img/login/visibility_on_black.png);
     }
 }
 
 .visibility_off {
-    background-image: url('/assets/img/login/visibility_off_gray.png');
+    background-image: url(./../../assets/img/login/visibility_off_gray.png);
 
     &:hover {
-        background-image: url('/assets/img/login/visibility_off_black.png');
+        background-image: url(./../../assets/img/login/visibility_off_black.png);
     }
 }
 
