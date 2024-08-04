@@ -315,7 +315,7 @@ export class TextBoxComponent {
 
   sortChannel(channels): void {
     const filteredChannels = channels.filter((channel) =>
-      channel.members.includes(this.userManagementService.activeUserId.value)
+      channel.members && channel.members.includes(this.userManagementService.activeUserId.value)
     );
     filteredChannels.sort((a, b) => a.creationDate - b.creationDate);
     this.allChannel = filteredChannels;

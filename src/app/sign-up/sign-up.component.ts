@@ -50,7 +50,7 @@ const firebaseConfig = {
   storageBucket: "da-bubble-43cc0.appspot.com",
   messagingSenderId: "884922893196",
   appId: "1:884922893196:web:6955f5ba2a6e52e1e94ca9",
-  measurementId: "G-8DCLSV0WDZ"
+  // measurementId: "G-8DCLSV0WDZ"
 };
 
 
@@ -258,15 +258,15 @@ export class SignUpComponent implements OnInit {
 
 async addUserToGeneralChannel() {
   const generalChannelRef = doc(db, 'channels', 'allgemein');
-  const angularChannelRef = doc(db, 'channels', 'ZkthG0MAr8nw8XfL5AOU');
+  // const angularChannelRef = doc(db, 'channels', 'ZkthG0MAr8nw8XfL5AOU');
 
   try {
     await updateDoc(generalChannelRef, {
       members: arrayUnion(this.auth.currentUser.uid),
     });
-    await updateDoc(angularChannelRef, {
-      members: arrayUnion(this.auth.currentUser.uid),
-    });
+    // await updateDoc(angularChannelRef, {
+    //   members: arrayUnion(this.auth.currentUser.uid),
+    // });
   } catch (error) {
     console.error("Fehler beim Hinzufügen des Benutzers zu den Kanälen", error);
   }
@@ -285,17 +285,26 @@ async addUserToGeneralChannel() {
   async onFileSelected(event) {
     const file: File = event.target.files[0];
     if (!file) return;
+  
     const validTypes = ['image/png', 'image/jpeg', 'image/svg+xml'];
     if (!validTypes.includes(file.type)) {
       alert('Nur PNG, JPG und SVG Dateien sind zulässig.');
       return;
     }
+  
     const maxSizeInBytes = 1.5 * 1024 * 1024; // 1,5 MB in Bytes
     if (file.size > maxSizeInBytes) {
       alert('Die Datei ist zu groß. Maximale Dateigröße ist 1,5 MB.');
       return;
     }
-    await this.uploadImage(file);
+  
+    try {
+      await this.uploadImage(file);
+      alert('Das Bild wurde erfolgreich hochgeladen!');
+    } catch (error) {
+      console.error('Fehler beim Hochladen des Bildes:', error);
+      alert('Beim Hochladen des Bildes ist ein Fehler aufgetreten.');
+    } 
   }
 
   generateUniqueId() {

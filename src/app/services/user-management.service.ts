@@ -162,7 +162,9 @@ export class UserManagementService {
   async setUserOnlineStatus(userId: string, isOnline: boolean) {
     const userDocRef = doc(db, 'users', userId);
     try {
-      await updateDoc(userDocRef, { isOnline: isOnline });
+      setTimeout(() => {
+        updateDoc(userDocRef, { isOnline: isOnline });
+      }, 1000);
     } catch (error) {
       console.error('Fehler beim Aktualisieren des Benutzerstatus', error);
     }

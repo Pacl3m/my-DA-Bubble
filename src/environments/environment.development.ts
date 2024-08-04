@@ -16,6 +16,6 @@ export const environment = {
         storageBucket: "da-bubble-43cc0.appspot.com",
         messagingSenderId: "884922893196",
         appId: "1:884922893196:web:6955f5ba2a6e52e1e94ca9",
-        measurementId: "G-8DCLSV0WDZ"
+        // measurementId: "G-8DCLSV0WDZ"
       }
 }

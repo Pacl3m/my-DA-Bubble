@@ -178,7 +178,9 @@ export class SideBarComponent {
     activeUserId: string
   ): { id: string; data: Channel }[] {
     return channels
-      .filter((channel) => channel.data.members.includes(activeUserId))
+      .filter((channel) =>
+        channel.data.members && channel.data.members.includes(activeUserId)
+      )
       .sort((a, b) => a.data.creationDate - b.data.creationDate);
   }
 
